@@ -1,6 +1,6 @@
 //----------------------------------------------------------
 //
-//  GRAND LARCENY  1.0
+//  FAT SAMP  1.0
 //  A freeroam gamemode for SA-MP 0.3
 //
 //----------------------------------------------------------
@@ -57,7 +57,7 @@ new Text:txtLasVenturas;
 main()
 {
 	print("\n---------------------------------------");
-	print("Running Grand Larceny - by the SA-MP team\n");
+	print("Running FAT SAMP - by the Fat Ass kid\n");
 	print("---------------------------------------\n");
 }
 
@@ -67,7 +67,7 @@ main()
 
 public OnPlayerConnect(playerid)
 {
-	GameTextForPlayer(playerid,"~w~Grand Larceny",3000,4);
+	GameTextForPlayer(playerid,"~w~FAT SAMP",3000,4);
   	SendClientMessage(playerid,COLOR_WHITE,"Welcome to FAT SAMP, why FAT? Cuz i dont gym.");
 	
   	
@@ -398,7 +398,7 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnGameModeInit()
 {
-	SetGameModeText("Grand Larceny");
+	SetGameModeText("FAT SAMP");
 	ShowPlayerMarkers(PLAYER_MARKERS_MODE_GLOBAL);
 	ShowNameTags(1);
 	SetNameTagDrawDistance(40.0);
